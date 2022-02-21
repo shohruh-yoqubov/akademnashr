@@ -13,12 +13,12 @@ body{
   background-color:#fff;
 }
 
+
 .site-header-actions{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 
 
 /* SITENAV */
@@ -27,6 +27,7 @@ body{
   list-style: none;
 }
 
+
 .sitenav-link{
   font-weight: 500;
   font-size: 13px;
@@ -34,8 +35,8 @@ body{
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000;}
-
+  color: #000;
+}
 
 
   .main-link{
@@ -46,6 +47,8 @@ body{
     text-decoration: none;
   }
 
+  /* Hero */
+
   .hero{
     display: flex;
     justify-content: space-between;
@@ -53,14 +56,20 @@ body{
     background-color: #252420;
     color: #fff;
   }
+
+
   .hero-content{
     width: 390px;
   }
+
+
   .orange-line{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
   }
+
+
   .hero-heading{
     font-size: 40px;
     line-height: 1.2;
@@ -73,6 +82,8 @@ body{
     height: 510px;
   }
 
+
+  /* FEATURES */
   .features-heading{
     width: 440px;
     font-size: 72px;
@@ -80,6 +91,7 @@ body{
     letter-spacing: 0.5px;
     font-family: 'Roboto Condensed', 'Roboto', 'Arial',sans-serif;
   }
+
 
   .features-list{
     display: flex;
@@ -109,7 +121,6 @@ body{
   }
 
 
-
   .promo{
     display: flex;
     align-items: center;
@@ -117,6 +128,7 @@ body{
     background-color: #252420;
     color: #fff;
   }
+
 
   .promo-contetn{
     width: 440px;
@@ -141,8 +153,16 @@ body{
     object-fit: cover;
   }
 
+
   .site-footer{
     background-color: #F8F8F8;
+  }
+
+
+  .site-footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
 
@@ -150,19 +170,31 @@ body{
     list-style: none;
   }
 
-  .site-footer-divider{
-    height: 2px;
-    background-color: rgb(37, 36, 32,0.5px);
+
+  .site-footer-socials{
+    display: flex;
+    align-items: center;
   }
 
 
-  .site-footer-links ul {
+  .site-footer-divider{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+  }
+
+
+  .site-footer-botton{
+    display: flex;
+  }
+
+
+  .site-footer-links{
     width: 224px;
     line-height: 19px;
   }
 
 
-  .site-footer-links a {
+  .site-footer-links a{
     text-decoration: none;
     color:#252420;
   }
