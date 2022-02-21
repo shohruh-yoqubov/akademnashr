@@ -6,12 +6,24 @@ body{
 }
 
 
-.site-header{background-color:#fff;}
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#fff;
+}
+
+.site-header-actions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
-
+/* SITENAV */
 .sitenav-list{
+  display: flex;
   list-style: none;
 }
 
@@ -35,6 +47,9 @@ body{
   }
 
   .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
   }
@@ -64,9 +79,16 @@ body{
     line-height: 1.2;
     letter-spacing: 0.5px;
     font-family: 'Roboto Condensed', 'Roboto', 'Arial',sans-serif;
-
   }
 
+  .features-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+
+  /* FEATURE */
   .feature{
     width: 340px;
   }
@@ -89,6 +111,9 @@ body{
 
 
   .promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
   }
